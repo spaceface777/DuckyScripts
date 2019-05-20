@@ -1,4 +1,4 @@
-# DuckyRoll
+# DuckRoll
 
 A script that opens [fakeUpdate](http://fakeupdate.net/win10u/) in full screen and plays the Rickroll song, as well as some other small pranks: 
 
