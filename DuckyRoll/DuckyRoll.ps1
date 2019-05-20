@@ -57,12 +57,10 @@ iwr -outf "$Env:appdata\\rick.mp3" "https://archive.org/download/NeverGonnaGiveY
 $mediaPlayer = New-Object system.windows.media.mediaplayer
 $mediaPlayer.open($Env:appdata + '\\rick.mp3')
 
-# Open fakeUpdate and Alt-Tab back to PS script (To keep focus)
+# Open fakeUpdate 
 Start-Process "http://fakeupdate.net/win10u"
 Start-Sleep 1
 [void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms')
-[System.Windows.Forms.SendKeys]::SendWait("{F11}") 
-[System.Windows.Forms.SendKeys]::SendWait("%{TAB}") 
 
 # Brightness manager
 $brightness = (Get-WmiObject -Namespace root/WMI -Class WmiMonitorBrightnessMethods)
