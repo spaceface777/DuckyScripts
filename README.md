@@ -20,16 +20,23 @@ If the ducky is programmed to type `alert(1);`, when that same ducky is inserted
 
 **If you have an idea for a new script or have a problem with an existing one, please [open an issue](https://github.com/spaceface777/DuckyScripts/issues/new).**
 
-- **[DuckRoll](https://github.com/spaceface777/DuckyScripts/tree/master/DuckRoll)** - A script that opens [fakeUpdate](http://fakeupdate.net/win10u/) in full screen and plays the Rickroll song
+### [Windows](https://github.com/spaceface777/DuckyScripts/tree/master/Windows)
+- **[DuckRoll](https://github.com/spaceface777/DuckyScripts/tree/master/Windows/DuckRoll)** - A script that opens [fakeUpdate](http://fakeupdate.net/win10u/) in full screen and plays the Rickroll song
 
-- **[Shutdown](https://github.com/spaceface777/DuckyScripts/tree/master/Shutdown)** - A script that shuts down the computer two minutes after plugging in the ducky
+- **[Shutdown](https://github.com/spaceface777/DuckyScripts/tree/master/Windows/Shutdown)** - A script that shuts down the computer two minutes after plugging in the ducky
+
+### [macOS](https://github.com/spaceface777/DuckyScripts/tree/master/macOS)
+- Nothing here (yet...)
+
+### [Linux](https://github.com/spaceface777/DuckyScripts/tree/master/Linux)
+- Nothing here (yet...)
 
 
 ***
 
 ## Project Structure 
-Each folder contains an individual Rubber Ducky script; that means that each folder contains: 
- - A `README.md` file, explaining more in-depth what that individual script does
- - One `.ino` file (the program uploaded to the Arduino)
- - Any dependencies the script has to download 
-   - This may be a `Powershell` script, an image, or anything else required for the script to run
+There are three big folders here, one for each operating system. Each one contains an individual Rubber Ducky script; that means that each folder contains: 
+- A `README.md` file, explaining more in-depth what that individual script does
+- One `.ino` file (the program uploaded to the Arduino)
+- Any dependencies the script has to download 
+  - This may be a `Powershell` script, an image, or anything else required for the script to run
