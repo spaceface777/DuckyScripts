@@ -20,15 +20,15 @@ If the ducky is programmed to type `alert(1);`, when that same ducky is inserted
 
 **If you have an idea for a new script or have a problem with an existing one, please [open an issue](https://github.com/spaceface777/DuckyScripts/issues/new).**
 
-### [Windows](https://github.com/spaceface777/DuckyScripts/tree/master/Windows)
-- **[DuckRoll](https://github.com/spaceface777/DuckyScripts/tree/master/Windows/DuckRoll)** - A script that opens [fakeUpdate](http://fakeupdate.net/win10u/) in full screen and plays the Rickroll song
+### [Windows](Windows)
+- **[DuckRoll](Windows/DuckRoll)** - A script that opens [fakeUpdate](http://fakeupdate.net/win10u/) in full screen and plays the Rickroll song
 
-- **[Shutdown](https://github.com/spaceface777/DuckyScripts/tree/master/Windows/Shutdown)** - A script that shuts down the computer two minutes after plugging in the ducky
+- **[Shutdown](Windows/Shutdown)** - A script that shuts down the computer two minutes after plugging in the ducky
 
-### [macOS](https://github.com/spaceface777/DuckyScripts/tree/master/macOS)
+### [macOS](macOS)
 - Nothing here (yet...)
 
-### [Linux](https://github.com/spaceface777/DuckyScripts/tree/master/Linux)
+### [Linux](Linux)
 - Nothing here (yet...)
 
 
