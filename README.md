@@ -37,6 +37,7 @@ If the ducky is programmed to type `alert(1);`, when that same ducky is inserted
 ## Project Structure 
 There are three big folders here, one for each operating system. Each one contains an individual Rubber Ducky script; that means that each folder contains: 
 - A `README.md` file, explaining more in-depth what that individual script does
+- A `main.txt` file, containing the main file to host in the [`DuckyScript Server`](https://github.com/spaceface777/DuckyScriptServer)
 - One `.ino` file (the program uploaded to the Arduino)
 - Any dependencies the script has to download 
   - This may be a `Powershell` script, an image, or anything else required for the script to run
