@@ -58,7 +58,7 @@ $mediaPlayer = New-Object system.windows.media.mediaplayer
 $mediaPlayer.open("$Env:appdata\\rick.mp3")
 
 # Open fakeUpdate 
-Start-Process "http://fakeupdate.net/win10u"
+Start-Process "http://fakeupdate.net/win10ue"
 Start-Sleep 1
 
 # Send F11 keypress (Fullscreen)
