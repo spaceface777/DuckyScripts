@@ -51,7 +51,7 @@ public class Audio {
 '@
 
 # Download Rickroll audio file
-Invoke-WebRequest -outf "$Env:appdata\\rick.mp3" "https://raw.githubusercontent.com/spaceface777/DuckyScripts/master/DuckRoll/DuckRoll.mp3"
+Invoke-WebRequest -outf "$Env:appdata\\rick.mp3" "https://raw.githubusercontent.com/spaceface777/DuckyScripts/master/Windows/DuckRoll/DuckRoll.mp3"
 
 # Load the music file
 $mediaPlayer = New-Object system.windows.media.mediaplayer
